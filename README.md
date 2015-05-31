@@ -19,8 +19,20 @@ Or install it yourself as:
     $ gem install unicorn-configurator_from_env
 
 ## Usage
+1. Require this module and call worker_processes.
 
-TODO: Write usage instructions here
+```
+# In config/unicorn.rb
+
+require 'unicorn/configurator_from_env'
+worker_processes 1
+```
+
+2. Start Unicorn with env.
+
+```
+% UNICORN_WORKER_PROCESS_NUM=3 bundle exec unicorn
+```
 
 ## Contributing
 
