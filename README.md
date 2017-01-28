@@ -1,6 +1,6 @@
 # Unicorn::ConfiguratorFromEnv
 
-TODO: Write a gem description
+Change Unicorn worker num or timeout sec from ENV
 
 ## Installation
 
